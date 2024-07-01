@@ -1,20 +1,15 @@
 package api.endpoints;
 
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.given;
 
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
 import api.payload.Category;
 import api.payload.Pets;
 import api.payload.Tag;
 import io.restassured.response.Response;
-
-import io.restassured.matcher.*;
 
 
 public class PetsEndPoints {
