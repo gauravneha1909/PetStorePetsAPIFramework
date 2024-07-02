@@ -6,6 +6,7 @@ import org.testng.AssertJUnit;
 
 import static org.testng.Assert.ARRAY_MISMATCH_TEMPLATE;
 
+import java.io.File;
 import java.util.Arrays;
 
 import org.testng.Assert;
@@ -120,6 +121,57 @@ public class PetTest {
 
 	}
 	
+	
+	@Test (priority=4)
+	public void deleteapet()
+	{
+		
+		
+	 Response response= PetsEndPoints.deletepet(this.pets.id);
+	 response.then().log().all();
+
+	  Assert.assertEquals(response.statusCode(), 200);
+
+	  
+	  
+
+	}
+	
+	
+	@Test (priority=5)
+	public void updatepetwithformdata()
+	{
+		
+		String status="sold";
+		String name="bihari dog";
+		
+	 Response response= PetsEndPoints.updatepetdata(this.pets.id, status,name);
+	 response.then().log().all();
+
+	  Assert.assertEquals(response.statusCode(), 200);
+
+	  
+	  
+
+	}
+	
+	
+	@Test (priority=6)
+	public void updatepetimage()
+	{
+		String filepath="/Users/gauravkumar/dog.jpg";
+		
+		
+		
+	 Response response= PetsEndPoints.uploadpetimage(filepath,this.pets.id);
+	 response.then().log().all();
+
+	  Assert.assertEquals(response.statusCode(), 200);
+
+	  
+	  
+
+	}
 	/*@Test
     public void verifyIdAndNameInResponse() {
 		

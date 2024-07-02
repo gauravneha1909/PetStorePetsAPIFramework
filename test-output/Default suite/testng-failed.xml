@@ -5,8 +5,8 @@
     <classes>
       <class name="api.pettests.PetTest">
         <methods>
-          <include name="verifyIdAndNameInResponse"/>
           <include name="beforetests"/>
+          <include name="updatepetimage"/>
         </methods>
       </class> <!-- api.pettests.PetTest -->
     </classes>
