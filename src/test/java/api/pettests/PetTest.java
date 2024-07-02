@@ -85,4 +85,20 @@ public class PetTest {
 	    
 	    // Add additional assertions if needed
 	}
+	
+	
+	
+	
+	@Test (priority=2)
+	public void getpetbyid()
+	{
+		
+		
+	 Response response= PetsEndPoints.getpetinfo(this.pets.getId());
+	 response.then().log().all();
+
+	  AssertJUnit.assertEquals(response.statusCode(), 200);
+	  
+
+	}
 }
