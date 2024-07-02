@@ -1,11 +1,11 @@
 package api.payload;
 
+import java.util.List;
+
 public class Pets {
 	
-	public int id;
-	public String name; 
-	public String Status;
-	public String photoUrls;
+
+
 	
 	public int getId() {
 		return id;
@@ -20,24 +20,37 @@ public class Pets {
 		this.name = name;
 	}
 	public String getStatus() {
-		return Status;
+		return status;
 	}
 	public void setStatus(String status) {
-		Status = status;
+		this.status = status;
 	}
-	public String getPhotoUrls() {
+	public String[] getPhotoUrls() {
 		return photoUrls;
 	}
-	public void setPhotoUrls(String photoUrls) {
+	public void setPhotoUrls(String[] photoUrls) {
 		this.photoUrls = photoUrls;
 	}
-
-	
-
-
-	
-	
+	public Category getCategory() {
+		return category;
 	}
+	public void setCategory(Category category) {
+		this.category = category;
+	}
+	public List<Tag> getTags() {
+		return tags;
+	}
+	public void setTags(List<Tag> tags) {
+		this.tags = tags;
+	}
+	public int id;
+	public String name; 
+	public String status;
+	public String[] photoUrls;
+	public Category category;
+	public List<Tag> tags;
+	
+}
 
 
 

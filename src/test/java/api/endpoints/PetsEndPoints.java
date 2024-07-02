@@ -76,7 +76,7 @@ public class PetsEndPoints {
 
 
 		
-	public static Response addnewpet(Pets petdata, Tag tagdata, Category catdata)
+	public static Response addnewpet(Pets pets)
 
 			
 			{
@@ -84,10 +84,8 @@ public class PetsEndPoints {
 						
 				given()
 				.header("accept","application/json")
-				.contentType("application/json")
-				.body(petdata)
-				.body(tagdata)
-				.body(catdata)
+				.header("Content-Type","application/json")
+				.body(pets)
 				
 
 				.when()
