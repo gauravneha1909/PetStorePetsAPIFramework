@@ -100,4 +100,18 @@ public class PetTest {
 	  
 
 	}
+	
+	
+	@Test (priority=3)
+	public void getpetbystatus()
+	{
+		
+		
+	 Response response= PetsEndPoints.getpetsbystatus(this.pets.status);
+	 response.then().log().all();
+
+	  Assert.assertEquals(response.statusCode(), 200);
+	  
+
+	}
 }
