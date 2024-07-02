@@ -96,7 +96,7 @@ public class PetTest {
 	 Response response= PetsEndPoints.getpetinfo(this.pets.getId());
 	 response.then().log().all();
 
-	  Assert.assertEquals(response.statusCode(), 813);
+	  Assert.assertEquals(response.statusCode(), 200);
 	  
 
 	}
