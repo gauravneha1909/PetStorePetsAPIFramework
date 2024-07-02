@@ -120,7 +120,7 @@ public class PetsEndPoints {
 	}
 	
 	
-	public static Response updatepet(Pets petdata, Tag tagdata, Category catdata)
+	public static Response updatepet(Pets pets)
 
 
 	
@@ -130,10 +130,7 @@ public class PetsEndPoints {
 		given()
 		.header("accept","application/json")
 		.contentType("application/json")
-		.body(petdata)
-		.body(tagdata)
-		.body(catdata)
-		
+		.body(pets)
 
 		.when()
 		.put(Routes.put_update_pet)
@@ -143,6 +140,7 @@ public class PetsEndPoints {
 
 		
 	}
+
 
 
 	public static Response updatepetdata(int petid, String status, String name)
