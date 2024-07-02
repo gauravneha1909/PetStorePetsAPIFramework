@@ -3,6 +3,9 @@ package api.pettests;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 import org.testng.AssertJUnit;
+
+import static org.testng.Assert.ARRAY_MISMATCH_TEMPLATE;
+
 import java.util.Arrays;
 
 import org.testng.Assert;
@@ -111,7 +114,29 @@ public class PetTest {
 	 response.then().log().all();
 
 	  Assert.assertEquals(response.statusCode(), 200);
+
+	  
 	  
 
 	}
+	
+	/*@Test
+    public void verifyIdAndNameInResponse() {
+		
+		 Response response= PetsEndPoints.getpetsbystatus(this.pets.status);
+		 
+        // Assume 'response' is the Response object containing your JSON response
+        String jsonResponse = response.getBody().asString();
+
+        // Using Gson to parse the JSON into a List of Pets objects
+        Gson gson = new Gson();
+        Pets[] petsArray = gson.fromJson(jsonResponse, Pets[].class);
+
+        // Assert the id and name fields for each pet object
+        for (Pets pet : petsArray) {
+            Assert.assertNotNull(pet.getId(), "1827725498");
+            Assert.assertNotNull(pet.getName(), "serval");
+            // You can add more specific assertions as needed
+        }*/
 }
+
