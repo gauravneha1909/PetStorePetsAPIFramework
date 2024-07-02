@@ -6,7 +6,6 @@ import org.testng.AssertJUnit;
 import java.util.Arrays;
 
 import org.testng.Assert;
-import org.testng.AssertJUnit;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -81,7 +80,7 @@ public class PetTest {
 	    Response response = PetsEndPoints.addnewpet(pets);
 	    response.then().log().all();
 	    
-	    AssertJUnit.assertEquals(response.statusCode(), 200);
+	    Assert.assertEquals(response.statusCode(), 200);
 	    
 	    // Add additional assertions if needed
 	}
@@ -97,7 +96,7 @@ public class PetTest {
 	 Response response= PetsEndPoints.getpetinfo(this.pets.getId());
 	 response.then().log().all();
 
-	  AssertJUnit.assertEquals(response.statusCode(), 813);
+	  Assert.assertEquals(response.statusCode(), 813);
 	  
 
 	}
