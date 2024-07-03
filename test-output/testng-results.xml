@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-02T20:48:22 NZST" name="Default suite" finished-at="2024-07-02T20:48:27 NZST" duration-ms="5022">
+  <suite started-at="2024-07-03T20:25:01 NZST" name="Default suite" finished-at="2024-07-03T20:25:51 NZST" duration-ms="49407">
     <groups>
     </groups>
-    <test started-at="2024-07-02T20:48:22 NZST" name="Default test" finished-at="2024-07-02T20:48:27 NZST" duration-ms="5022">
+    <test started-at="2024-07-03T20:25:01 NZST" name="Default test" finished-at="2024-07-03T20:25:51 NZST" duration-ms="49407">
       <class name="api.pettests.PetTest">
-        <test-method is-config="true" signature="beforetests()[pri:0, instance:api.pettests.PetTest@7d0b7e3c]" started-at="2024-07-02T20:48:22 NZST" name="beforetests" finished-at="2024-07-02T20:48:22 NZST" duration-ms="116" status="PASS">
+        <test-method is-config="true" signature="beforetests()[pri:0, instance:api.pettests.PetTest@7d0b7e3c]" started-at="2024-07-03T20:25:01 NZST" name="beforetests" finished-at="2024-07-03T20:25:02 NZST" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetests -->
-        <test-method signature="addNewPet()[pri:0, instance:api.pettests.PetTest@7d0b7e3c]" started-at="2024-07-02T20:48:22 NZST" name="addNewPet" finished-at="2024-07-02T20:48:26 NZST" duration-ms="3501" status="PASS">
+        <test-method signature="addNewPet()[pri:1, instance:api.pettests.PetTest@7d0b7e3c]" started-at="2024-07-03T20:25:02 NZST" name="addNewPet" finished-at="2024-07-03T20:25:06 NZST" duration-ms="4143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewPet -->
-        <test-method signature="updatepet()[pri:7, instance:api.pettests.PetTest@7d0b7e3c]" started-at="2024-07-02T20:48:26 NZST" name="updatepet" finished-at="2024-07-02T20:48:27 NZST" duration-ms="1356" status="PASS">
+        <test-method signature="getpetbyid()[pri:2, instance:api.pettests.PetTest@7d0b7e3c]" started-at="2024-07-03T20:25:06 NZST" name="getpetbyid" finished-at="2024-07-03T20:25:07 NZST" duration-ms="1372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getpetbyid -->
+        <test-method signature="getpetbystatus()[pri:3, instance:api.pettests.PetTest@7d0b7e3c]" started-at="2024-07-03T20:25:07 NZST" name="getpetbystatus" finished-at="2024-07-03T20:25:09 NZST" duration-ms="1784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getpetbystatus -->
+        <test-method signature="deleteapet()[pri:4, instance:api.pettests.PetTest@7d0b7e3c]" started-at="2024-07-03T20:25:09 NZST" name="deleteapet" finished-at="2024-07-03T20:25:10 NZST" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteapet -->
+        <test-method signature="updatepetwithformdata()[pri:5, instance:api.pettests.PetTest@7d0b7e3c]" started-at="2024-07-03T20:25:10 NZST" name="updatepetwithformdata" finished-at="2024-07-03T20:25:12 NZST" duration-ms="1429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatepetwithformdata -->
+        <test-method signature="updatepetimage()[pri:6, instance:api.pettests.PetTest@7d0b7e3c]" started-at="2024-07-03T20:25:12 NZST" name="updatepetimage" finished-at="2024-07-03T20:25:49 NZST" duration-ms="37374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatepetimage -->
+        <test-method signature="updatepet()[pri:7, instance:api.pettests.PetTest@7d0b7e3c]" started-at="2024-07-03T20:25:49 NZST" name="updatepet" finished-at="2024-07-03T20:25:51 NZST" duration-ms="1633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepet -->
