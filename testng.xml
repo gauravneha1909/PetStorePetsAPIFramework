@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="api.pettests.PetTest"/>
+      <class name="api.pettests.PetTest2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

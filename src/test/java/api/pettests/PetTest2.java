@@ -25,7 +25,7 @@ import api.payload.Tag;
 import io.restassured.response.Response;
 import api.endpoints.*;
 
-public class PetTest {
+public class PetTest2 {
 	
 	
 	Faker faker;
@@ -84,7 +84,7 @@ public class PetTest {
         System.out.println("JSON Payload:");
         System.out.println(jsonPayload);
         
-	    Response response = PetsEndPoints.addnewpet(pets);
+	    Response response = PetsEndPoints2.addnewpet(pets);
 	    response.then().log().all();
 	    
 	    AssertJUnit.assertEquals(response.statusCode(), 200);
@@ -100,7 +100,7 @@ public class PetTest {
 	{
 		
 		
-	 Response response= PetsEndPoints.getpetinfo(this.pets.getId());
+	 Response response= PetsEndPoints2.getpetinfo(this.pets.getId());
 	 response.then().log().all();
 
 	  AssertJUnit.assertEquals(response.statusCode(), 200);
@@ -114,7 +114,7 @@ public class PetTest {
 	{
 		
 		
-	 Response response= PetsEndPoints.getpetsbystatus(this.pets.status);
+	 Response response= PetsEndPoints2.getpetsbystatus(this.pets.status);
 	 response.then().log().all();
 
 	  AssertJUnit.assertEquals(response.statusCode(), 200);
@@ -130,7 +130,7 @@ public class PetTest {
 	{
 		
 		
-	 Response response= PetsEndPoints.deletepet(this.pets.id);
+	 Response response= PetsEndPoints2.deletepet(this.pets.id);
 	 response.then().log().all();
 
 	  AssertJUnit.assertEquals(response.statusCode(), 200);
@@ -148,7 +148,7 @@ public class PetTest {
 		String status="sold";
 		String name="bihari dog";
 		
-	 Response response= PetsEndPoints.updatepetdata(this.pets.id, status,name);
+	 Response response= PetsEndPoints2.updatepetdata(this.pets.id, status,name);
 	 response.then().log().all();
 
 	  AssertJUnit.assertEquals(response.statusCode(), 200);
@@ -166,7 +166,7 @@ public class PetTest {
 		
 		
 		
-	 Response response= PetsEndPoints.uploadpetimage(filepath,this.pets.id);
+	 Response response= PetsEndPoints2.uploadpetimage(filepath,this.pets.id);
 	 response.then().log().all();
 
 	  AssertJUnit.assertEquals(response.statusCode(), 200);
@@ -219,7 +219,7 @@ public class PetTest {
         System.out.println("JSON Payload:");
         System.out.println(jsonPayload);
         
-	    Response response = PetsEndPoints.updatepet(pets);
+	    Response response = PetsEndPoints2.updatepet(pets);
 	    response.then().log().all();
 	    
 	    AssertJUnit.assertEquals(response.statusCode(), 200);
@@ -229,7 +229,7 @@ public class PetTest {
 	/*@Test
     public void verifyIdAndNameInResponse() {
 		
-		 Response response= PetsEndPoints.getpetsbystatus(this.pets.status);
+		 Response response= PetsEndPoints2.getpetsbystatus(this.pets.status);
 		 
         // Assume 'response' is the Response object containing your JSON response
         String jsonResponse = response.getBody().asString();
