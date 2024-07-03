@@ -1,75 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-04T11:29:31 NZST" name="Suite" finished-at="2024-07-04T11:31:06 NZST" duration-ms="94644">
+  <suite started-at="2024-07-04T11:55:21 NZST" name="Suite" finished-at="2024-07-04T11:56:10 NZST" duration-ms="49195">
     <groups>
     </groups>
-    <test started-at="2024-07-04T11:29:31 NZST" name="Test" finished-at="2024-07-04T11:31:06 NZST" duration-ms="94644">
-      <class name="api.pettests.PetTest">
-        <test-method is-config="true" signature="beforetests()[pri:0, instance:api.pettests.PetTest@2eae8e6e]" started-at="2024-07-04T11:29:31 NZST" name="beforetests" finished-at="2024-07-04T11:29:32 NZST" duration-ms="901" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforetests -->
-        <test-method signature="addNewPet()[pri:1, instance:api.pettests.PetTest@2eae8e6e]" started-at="2024-07-04T11:29:32 NZST" name="addNewPet" finished-at="2024-07-04T11:29:36 NZST" duration-ms="4063" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addNewPet -->
-        <test-method signature="getpetbyid()[pri:2, instance:api.pettests.PetTest@2eae8e6e]" started-at="2024-07-04T11:29:36 NZST" name="getpetbyid" finished-at="2024-07-04T11:29:37 NZST" duration-ms="1192" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getpetbyid -->
-        <test-method signature="getpetbystatus()[pri:3, instance:api.pettests.PetTest@2eae8e6e]" started-at="2024-07-04T11:29:37 NZST" name="getpetbystatus" finished-at="2024-07-04T11:29:39 NZST" duration-ms="1433" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getpetbystatus -->
-        <test-method signature="deleteapet()[pri:4, instance:api.pettests.PetTest@2eae8e6e]" started-at="2024-07-04T11:29:39 NZST" name="deleteapet" finished-at="2024-07-04T11:29:40 NZST" duration-ms="1364" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteapet -->
-        <test-method signature="updatepetwithformdata()[pri:5, instance:api.pettests.PetTest@2eae8e6e]" started-at="2024-07-04T11:29:40 NZST" name="updatepetwithformdata" finished-at="2024-07-04T11:29:42 NZST" duration-ms="1535" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updatepetwithformdata -->
-        <test-method signature="updatepetimage()[pri:6, instance:api.pettests.PetTest@2eae8e6e]" started-at="2024-07-04T11:29:42 NZST" name="updatepetimage" finished-at="2024-07-04T11:30:15 NZST" duration-ms="33555" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updatepetimage -->
-        <test-method signature="updatepet()[pri:7, instance:api.pettests.PetTest@2eae8e6e]" started-at="2024-07-04T11:30:15 NZST" name="updatepet" finished-at="2024-07-04T11:30:17 NZST" duration-ms="1560" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updatepet -->
-      </class> <!-- api.pettests.PetTest -->
+    <test started-at="2024-07-04T11:55:21 NZST" name="Test" finished-at="2024-07-04T11:56:10 NZST" duration-ms="49195">
       <class name="api.pettests.PetTest2">
-        <test-method is-config="true" signature="beforetests()[pri:0, instance:api.pettests.PetTest2@173ed316]" started-at="2024-07-04T11:30:17 NZST" name="beforetests" finished-at="2024-07-04T11:30:17 NZST" duration-ms="28" status="PASS">
+        <test-method is-config="true" signature="beforetests()[pri:0, instance:api.pettests.PetTest2@7d0b7e3c]" started-at="2024-07-04T11:55:21 NZST" name="beforetests" finished-at="2024-07-04T11:55:22 NZST" duration-ms="666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetests -->
-        <test-method signature="addNewPet()[pri:1, instance:api.pettests.PetTest2@173ed316]" started-at="2024-07-04T11:30:17 NZST" name="addNewPet" finished-at="2024-07-04T11:30:18 NZST" duration-ms="1372" status="PASS">
+        <test-method signature="addNewPet()[pri:1, instance:api.pettests.PetTest2@7d0b7e3c]" started-at="2024-07-04T11:55:22 NZST" name="addNewPet" finished-at="2024-07-04T11:55:25 NZST" duration-ms="3577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewPet -->
-        <test-method signature="getpetbyid()[pri:2, instance:api.pettests.PetTest2@173ed316]" started-at="2024-07-04T11:30:18 NZST" name="getpetbyid" finished-at="2024-07-04T11:30:19 NZST" duration-ms="1272" status="PASS">
+        <test-method signature="getpetbyid()[pri:2, instance:api.pettests.PetTest2@7d0b7e3c]" started-at="2024-07-04T11:55:25 NZST" name="getpetbyid" finished-at="2024-07-04T11:55:27 NZST" duration-ms="1444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getpetbyid -->
-        <test-method signature="getpetbystatus()[pri:3, instance:api.pettests.PetTest2@173ed316]" started-at="2024-07-04T11:30:19 NZST" name="getpetbystatus" finished-at="2024-07-04T11:30:21 NZST" duration-ms="1481" status="PASS">
+        <test-method signature="getpetbystatus()[pri:3, instance:api.pettests.PetTest2@7d0b7e3c]" started-at="2024-07-04T11:55:27 NZST" name="getpetbystatus" finished-at="2024-07-04T11:55:29 NZST" duration-ms="1827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getpetbystatus -->
-        <test-method signature="deleteapet()[pri:4, instance:api.pettests.PetTest2@173ed316]" started-at="2024-07-04T11:30:21 NZST" name="deleteapet" finished-at="2024-07-04T11:30:22 NZST" duration-ms="1171" status="PASS">
+        <test-method signature="deleteapet()[pri:4, instance:api.pettests.PetTest2@7d0b7e3c]" started-at="2024-07-04T11:55:29 NZST" name="deleteapet" finished-at="2024-07-04T11:55:30 NZST" duration-ms="1436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteapet -->
-        <test-method signature="updatepetwithformdata()[pri:5, instance:api.pettests.PetTest2@173ed316]" started-at="2024-07-04T11:30:22 NZST" name="updatepetwithformdata" finished-at="2024-07-04T11:30:23 NZST" duration-ms="1349" status="PASS">
+        <test-method signature="updatepetwithformdata()[pri:5, instance:api.pettests.PetTest2@7d0b7e3c]" started-at="2024-07-04T11:55:30 NZST" name="updatepetwithformdata" finished-at="2024-07-04T11:55:32 NZST" duration-ms="1531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepetwithformdata -->
-        <test-method signature="updatepetimage()[pri:6, instance:api.pettests.PetTest2@173ed316]" started-at="2024-07-04T11:30:23 NZST" name="updatepetimage" finished-at="2024-07-04T11:31:04 NZST" duration-ms="40726" status="PASS">
+        <test-method signature="updatepetimage()[pri:6, instance:api.pettests.PetTest2@7d0b7e3c]" started-at="2024-07-04T11:55:32 NZST" name="updatepetimage" finished-at="2024-07-04T11:56:03 NZST" duration-ms="31844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepetimage -->
-        <test-method signature="updatepet()[pri:7, instance:api.pettests.PetTest2@173ed316]" started-at="2024-07-04T11:31:04 NZST" name="updatepet" finished-at="2024-07-04T11:31:06 NZST" duration-ms="1527" status="PASS">
+        <test-method signature="updatepet()[pri:7, instance:api.pettests.PetTest2@7d0b7e3c]" started-at="2024-07-04T11:56:03 NZST" name="updatepet" finished-at="2024-07-04T11:56:10 NZST" duration-ms="6792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepet -->

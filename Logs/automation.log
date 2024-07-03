@@ -12,3 +12,10 @@
 2024-07-04 11:30:22.552 [main] INFO  api.pettests.PetTest2 - *****updating a pet with form data with properties*******
 2024-07-04 11:30:23.904 [main] INFO  api.pettests.PetTest2 - *****updating a pets image with properties*******
 2024-07-04 11:31:04.633 [main] INFO  api.pettests.PetTest2 - *****updating a pet with properties*******
+2024-07-04 11:55:22.212 [main] INFO  api.pettests.PetTest2 - *****Adding a new pet with properties*******
+2024-07-04 11:55:25.795 [main] INFO  api.pettests.PetTest2 - *****getting a pet by id with properties*******
+2024-07-04 11:55:27.244 [main] INFO  api.pettests.PetTest2 - *****getting a pet with status with properties*******
+2024-07-04 11:55:29.077 [main] INFO  api.pettests.PetTest2 - *****deleting a new pet with properties*******
+2024-07-04 11:55:30.518 [main] INFO  api.pettests.PetTest2 - *****updating a pet with form data with properties*******
+2024-07-04 11:55:32.054 [main] INFO  api.pettests.PetTest2 - *****updating a pets image with properties*******
+2024-07-04 11:56:03.902 [main] INFO  api.pettests.PetTest2 - *****updating a pet with properties*******
