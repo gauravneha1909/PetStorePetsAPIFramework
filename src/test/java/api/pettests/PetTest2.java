@@ -12,6 +12,8 @@ import static org.testng.Assert.ARRAY_MISMATCH_TEMPLATE;
 import java.io.File;
 import java.util.Arrays;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -36,6 +38,7 @@ public class PetTest2 {
 	
 	Tag tag;
 	
+	Logger logger;
 	
 	@BeforeClass
 	public void beforetests()
@@ -61,6 +64,7 @@ public class PetTest2 {
 		pets.setTags(Arrays.asList(tag));
 		pets.setCategory(category);
 
+		logger =LogManager.getLogger(this.getClass());
 		
 
 			
@@ -69,6 +73,8 @@ public class PetTest2 {
 	@Test (priority=1)
 
 	public void addNewPet() {
+		
+		logger.info("*****Adding a new pet with properties*******");
 	    System.out.println("Adding new pet with details:");
 	    System.out.println("ID: " + pets.getId());
 	    System.out.println("Pet Name: " + pets.getName());
@@ -99,6 +105,8 @@ public class PetTest2 {
 	public void getpetbyid()
 	{
 		
+		logger.info("*****getting a pet by id with properties*******");
+		
 		
 	 Response response= PetsEndPoints2.getpetinfo(this.pets.getId());
 	 response.then().log().all();
@@ -113,7 +121,7 @@ public class PetTest2 {
 	public void getpetbystatus()
 	{
 		
-		
+		logger.info("*****getting a pet with status with properties*******");
 	 Response response= PetsEndPoints2.getpetsbystatus(this.pets.status);
 	 response.then().log().all();
 
@@ -129,6 +137,7 @@ public class PetTest2 {
 	public void deleteapet()
 	{
 		
+		logger.info("*****deleting a new pet with properties*******");
 		
 	 Response response= PetsEndPoints2.deletepet(this.pets.id);
 	 response.then().log().all();
@@ -143,7 +152,9 @@ public class PetTest2 {
 	
 	@Test (priority=5)
 	public void updatepetwithformdata()
-	{
+	{	
+		
+		logger.info("*****updating a pet with form data with properties*******");
 		
 		String status="sold";
 		String name="bihari dog";
@@ -161,7 +172,10 @@ public class PetTest2 {
 	
 	@Test (priority=6)
 	public void updatepetimage()
-	{
+	
+	{	
+		logger.info("*****updating a pets image with properties*******");
+		
 		String filepath="/Users/gauravkumar/dog.jpg";
 		
 		
@@ -181,7 +195,8 @@ public class PetTest2 {
 
 	public void updatepet() {
 		
-
+		
+		logger.info("*****updating a pet with properties*******");
 
 
 	    pets.setId(this.pets.id);

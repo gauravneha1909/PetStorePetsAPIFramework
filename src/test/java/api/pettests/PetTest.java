@@ -12,6 +12,8 @@ import static org.testng.Assert.ARRAY_MISMATCH_TEMPLATE;
 import java.io.File;
 import java.util.Arrays;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -35,6 +37,8 @@ public class PetTest {
 	Pets pets;
 	
 	Tag tag;
+	
+	Logger logger;
 	
 	
 	@BeforeClass
@@ -62,13 +66,15 @@ public class PetTest {
 		pets.setCategory(category);
 
 		
-
+		logger= LogManager.getLogger(this.getClass());
 			
 	}
 
 	@Test (priority=1)
 
 	public void addNewPet() {
+		
+		logger.info("***adding a pet***********");
 	    System.out.println("Adding new pet with details:");
 	    System.out.println("ID: " + pets.getId());
 	    System.out.println("Pet Name: " + pets.getName());
@@ -99,6 +105,7 @@ public class PetTest {
 	public void getpetbyid()
 	{
 		
+		logger.info("***getting a pet by ID***********");
 		
 	 Response response= PetsEndPoints.getpetinfo(this.pets.getId());
 	 response.then().log().all();
@@ -113,7 +120,7 @@ public class PetTest {
 	public void getpetbystatus()
 	{
 		
-		
+		logger.info("***getting pets by status***********");
 	 Response response= PetsEndPoints.getpetsbystatus(this.pets.status);
 	 response.then().log().all();
 
@@ -129,6 +136,7 @@ public class PetTest {
 	public void deleteapet()
 	{
 		
+		logger.info("***deleting a pet***********");
 		
 	 Response response= PetsEndPoints.deletepet(this.pets.id);
 	 response.then().log().all();
@@ -144,6 +152,7 @@ public class PetTest {
 	@Test (priority=5)
 	public void updatepetwithformdata()
 	{
+		logger.info("***updating a pet with form data***********");
 		
 		String status="sold";
 		String name="bihari dog";
@@ -162,6 +171,8 @@ public class PetTest {
 	@Test (priority=6)
 	public void updatepetimage()
 	{
+		logger.info("***updating a pet image***********");
+		
 		String filepath="/Users/gauravkumar/dog.jpg";
 		
 		
@@ -182,7 +193,7 @@ public class PetTest {
 	public void updatepet() {
 		
 
-
+		logger.info("***updating a pet***********");
 
 	    pets.setId(this.pets.id);
 	    
