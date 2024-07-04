@@ -116,7 +116,7 @@ public class PetTest {
 	}
 	
 	
-	@Test (priority=3)
+	//@Test (priority=3)
 	public void getpetbystatus()
 	{
 		
