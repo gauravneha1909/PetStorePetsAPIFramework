@@ -1,10 +1,12 @@
-api/endpoints/PetsEndPoints.class
 api/endpoints/Routes.class
 api/payload/Pets.class
-api/pettests/PetTest.class
 api/utilities/XLUtility.class
 api/payload/Tag.class
 api/pettests/PetTest2.class
-api/endpoints/PetsEndPoints2.class
 api/payload/Category.class
 api/utilities/ExtentReportManager.class
+api/endpoints/PetsEndPoints.class
+api/pettests/PetTestData.class
+api/utilities/DataProviders.class
+api/pettests/PetTest.class
+api/endpoints/PetsEndPoints2.class

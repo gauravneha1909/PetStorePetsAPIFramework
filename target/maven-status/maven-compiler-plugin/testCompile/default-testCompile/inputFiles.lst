@@ -6,5 +6,7 @@
 /Users/gauravkumar/eclipse-workspace/PetStorePetsAPIFramework/src/test/java/api/payload/Tag.java
 /Users/gauravkumar/eclipse-workspace/PetStorePetsAPIFramework/src/test/java/api/pettests/PetTest.java
 /Users/gauravkumar/eclipse-workspace/PetStorePetsAPIFramework/src/test/java/api/pettests/PetTest2.java
+/Users/gauravkumar/eclipse-workspace/PetStorePetsAPIFramework/src/test/java/api/pettests/PetTestData.java
+/Users/gauravkumar/eclipse-workspace/PetStorePetsAPIFramework/src/test/java/api/utilities/DataProviders.java
 /Users/gauravkumar/eclipse-workspace/PetStorePetsAPIFramework/src/test/java/api/utilities/ExtentReportManager.java
 /Users/gauravkumar/eclipse-workspace/PetStorePetsAPIFramework/src/test/java/api/utilities/XLUtility.java

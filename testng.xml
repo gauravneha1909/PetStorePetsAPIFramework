@@ -5,6 +5,7 @@
     <classes>
 	<class name="api.pettests.PetTest2"/>
       <class name="api.pettests.PetTest"/>
+      <class name="api.pettests.PetTestData"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
