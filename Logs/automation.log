@@ -45,3 +45,15 @@
 2024-07-04 12:18:13.079 [main] INFO  api.pettests.PetTest2 - *****updating a pet with form data with properties*******
 2024-07-04 12:18:14.608 [main] INFO  api.pettests.PetTest2 - *****updating a pets image with properties*******
 2024-07-04 12:18:53.519 [main] INFO  api.pettests.PetTest2 - *****updating a pet with properties*******
+2024-07-04 13:22:52.102 [main] INFO  api.pettests.PetTest2 - *****Adding a new pet with properties*******
+2024-07-04 13:22:56.495 [main] INFO  api.pettests.PetTest2 - *****getting a pet by id with properties*******
+2024-07-04 13:22:58.009 [main] INFO  api.pettests.PetTest2 - *****deleting a new pet with properties*******
+2024-07-04 13:22:59.317 [main] INFO  api.pettests.PetTest2 - *****updating a pet with form data with properties*******
+2024-07-04 13:23:00.750 [main] INFO  api.pettests.PetTest2 - *****updating a pets image with properties*******
+2024-07-04 13:23:24.066 [main] INFO  api.pettests.PetTest2 - *****updating a pet with properties*******
+2024-07-04 13:23:25.851 [main] INFO  api.pettests.PetTest - ***adding a pet***********
+2024-07-04 13:23:27.201 [main] INFO  api.pettests.PetTest - ***getting a pet by ID***********
+2024-07-04 13:23:28.705 [main] INFO  api.pettests.PetTest - ***deleting a pet***********
+2024-07-04 13:23:30.035 [main] INFO  api.pettests.PetTest - ***updating a pet with form data***********
+2024-07-04 13:23:31.578 [main] INFO  api.pettests.PetTest - ***updating a pet image***********
+2024-07-04 13:23:52.760 [main] INFO  api.pettests.PetTest - ***updating a pet***********
