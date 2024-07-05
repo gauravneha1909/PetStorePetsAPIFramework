@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="48" passed="48" failed="0" skipped="0">
+<testng-results ignored="0" total="60" passed="60" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-04T16:40:16 NZST" name="Default suite" finished-at="2024-07-04T16:49:22 NZST" duration-ms="546137">
+  <suite started-at="2024-07-06T10:51:26 NZST" name="Suite" finished-at="2024-07-06T11:01:59 NZST" duration-ms="632576">
     <groups>
     </groups>
-    <test started-at="2024-07-04T16:40:16 NZST" name="Default test" finished-at="2024-07-04T16:49:22 NZST" duration-ms="546137">
+    <test started-at="2024-07-06T10:51:26 NZST" name="Test" finished-at="2024-07-06T11:01:59 NZST" duration-ms="632576">
+      <class name="api.pettests.PetTest">
+        <test-method is-config="true" signature="beforetests()[pri:0, instance:api.pettests.PetTest@74ea2410]" started-at="2024-07-06T10:52:12 NZST" name="beforetests" finished-at="2024-07-06T10:52:13 NZST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetests -->
+        <test-method signature="addNewPet()[pri:1, instance:api.pettests.PetTest@74ea2410]" started-at="2024-07-06T10:52:13 NZST" name="addNewPet" finished-at="2024-07-06T10:52:14 NZST" duration-ms="1121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPet -->
+        <test-method signature="getpetbyid()[pri:2, instance:api.pettests.PetTest@74ea2410]" started-at="2024-07-06T10:52:14 NZST" name="getpetbyid" finished-at="2024-07-06T10:52:15 NZST" duration-ms="1365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getpetbyid -->
+        <test-method signature="deleteapet()[pri:4, instance:api.pettests.PetTest@74ea2410]" started-at="2024-07-06T10:52:15 NZST" name="deleteapet" finished-at="2024-07-06T10:52:16 NZST" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteapet -->
+        <test-method signature="updatepetwithformdata()[pri:5, instance:api.pettests.PetTest@74ea2410]" started-at="2024-07-06T10:52:16 NZST" name="updatepetwithformdata" finished-at="2024-07-06T10:52:18 NZST" duration-ms="1183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatepetwithformdata -->
+        <test-method signature="updatepetimage()[pri:6, instance:api.pettests.PetTest@74ea2410]" started-at="2024-07-06T10:52:18 NZST" name="updatepetimage" finished-at="2024-07-06T10:52:47 NZST" duration-ms="29589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatepetimage -->
+        <test-method signature="updatepet()[pri:7, instance:api.pettests.PetTest@74ea2410]" started-at="2024-07-06T10:52:47 NZST" name="updatepet" finished-at="2024-07-06T10:52:49 NZST" duration-ms="1704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatepet -->
+      </class> <!-- api.pettests.PetTest -->
       <class name="api.pettests.PetTestData">
-        <test-method signature="addNewPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:18 NZST" name="addNewPet" data-provider="PetData" finished-at="2024-07-04T16:40:22 NZST" duration-ms="3130" status="PASS">
+        <test-method signature="addNewPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:52:51 NZST" name="addNewPet" data-provider="PetData" finished-at="2024-07-06T10:52:52 NZST" duration-ms="1252" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewPet -->
-        <test-method signature="addNewPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:22 NZST" name="addNewPet" data-provider="PetData" finished-at="2024-07-04T16:40:23 NZST" duration-ms="1476" status="PASS">
+        <test-method signature="addNewPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:52:52 NZST" name="addNewPet" data-provider="PetData" finished-at="2024-07-06T10:52:53 NZST" duration-ms="1331" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,7 +129,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewPet -->
-        <test-method signature="addNewPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:23 NZST" name="addNewPet" data-provider="PetData" finished-at="2024-07-04T16:40:24 NZST" duration-ms="1426" status="PASS">
+        <test-method signature="addNewPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:52:53 NZST" name="addNewPet" data-provider="PetData" finished-at="2024-07-06T10:52:55 NZST" duration-ms="1607" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,7 +175,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewPet -->
-        <test-method signature="addNewPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:24 NZST" name="addNewPet" data-provider="PetData" finished-at="2024-07-04T16:40:26 NZST" duration-ms="1428" status="PASS">
+        <test-method signature="addNewPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:52:55 NZST" name="addNewPet" data-provider="PetData" finished-at="2024-07-06T10:52:56 NZST" duration-ms="1369" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -191,7 +221,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewPet -->
-        <test-method signature="addNewPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:26 NZST" name="addNewPet" data-provider="PetData" finished-at="2024-07-04T16:40:27 NZST" duration-ms="1329" status="PASS">
+        <test-method signature="addNewPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:52:56 NZST" name="addNewPet" data-provider="PetData" finished-at="2024-07-06T10:52:58 NZST" duration-ms="1203" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -237,7 +267,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewPet -->
-        <test-method signature="addNewPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:27 NZST" name="addNewPet" data-provider="PetData" finished-at="2024-07-04T16:40:29 NZST" duration-ms="1533" status="PASS">
+        <test-method signature="addNewPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:52:58 NZST" name="addNewPet" data-provider="PetData" finished-at="2024-07-06T10:52:59 NZST" duration-ms="1430" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -283,7 +313,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewPet -->
-        <test-method signature="addNewPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:29 NZST" name="addNewPet" data-provider="PetData" finished-at="2024-07-04T16:40:30 NZST" duration-ms="1531" status="PASS">
+        <test-method signature="addNewPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:52:59 NZST" name="addNewPet" data-provider="PetData" finished-at="2024-07-06T10:53:00 NZST" duration-ms="1224" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -329,7 +359,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewPet -->
-        <test-method signature="addNewPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:30 NZST" name="addNewPet" data-provider="PetData" finished-at="2024-07-04T16:40:32 NZST" duration-ms="1324" status="PASS">
+        <test-method signature="addNewPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:00 NZST" name="addNewPet" data-provider="PetData" finished-at="2024-07-06T10:53:01 NZST" duration-ms="1118" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -375,7 +405,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewPet -->
-        <test-method signature="getpetbyid(java.lang.String)[pri:2, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:32 NZST" name="getpetbyid" data-provider="PetID" finished-at="2024-07-04T16:40:33 NZST" duration-ms="1580" status="PASS">
+        <test-method signature="getpetbyid(java.lang.String)[pri:2, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:01 NZST" name="getpetbyid" data-provider="PetID" finished-at="2024-07-06T10:53:03 NZST" duration-ms="1497" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -386,7 +416,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getpetbyid -->
-        <test-method signature="getpetbyid(java.lang.String)[pri:2, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:33 NZST" name="getpetbyid" data-provider="PetID" finished-at="2024-07-04T16:40:35 NZST" duration-ms="1533" status="PASS">
+        <test-method signature="getpetbyid(java.lang.String)[pri:2, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:03 NZST" name="getpetbyid" data-provider="PetID" finished-at="2024-07-06T10:53:04 NZST" duration-ms="1328" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -397,7 +427,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getpetbyid -->
-        <test-method signature="getpetbyid(java.lang.String)[pri:2, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:35 NZST" name="getpetbyid" data-provider="PetID" finished-at="2024-07-04T16:40:36 NZST" duration-ms="1531" status="PASS">
+        <test-method signature="getpetbyid(java.lang.String)[pri:2, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:04 NZST" name="getpetbyid" data-provider="PetID" finished-at="2024-07-06T10:53:06 NZST" duration-ms="1533" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -408,7 +438,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getpetbyid -->
-        <test-method signature="getpetbyid(java.lang.String)[pri:2, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:36 NZST" name="getpetbyid" data-provider="PetID" finished-at="2024-07-04T16:40:38 NZST" duration-ms="1430" status="PASS">
+        <test-method signature="getpetbyid(java.lang.String)[pri:2, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:06 NZST" name="getpetbyid" data-provider="PetID" finished-at="2024-07-06T10:53:07 NZST" duration-ms="1534" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -419,7 +449,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getpetbyid -->
-        <test-method signature="getpetbyid(java.lang.String)[pri:2, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:38 NZST" name="getpetbyid" data-provider="PetID" finished-at="2024-07-04T16:40:39 NZST" duration-ms="1531" status="PASS">
+        <test-method signature="getpetbyid(java.lang.String)[pri:2, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:07 NZST" name="getpetbyid" data-provider="PetID" finished-at="2024-07-06T10:53:09 NZST" duration-ms="1429" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -430,7 +460,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getpetbyid -->
-        <test-method signature="getpetbyid(java.lang.String)[pri:2, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:39 NZST" name="getpetbyid" data-provider="PetID" finished-at="2024-07-04T16:40:41 NZST" duration-ms="1537" status="PASS">
+        <test-method signature="getpetbyid(java.lang.String)[pri:2, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:09 NZST" name="getpetbyid" data-provider="PetID" finished-at="2024-07-06T10:53:10 NZST" duration-ms="1533" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -441,7 +471,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getpetbyid -->
-        <test-method signature="getpetbyid(java.lang.String)[pri:2, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:41 NZST" name="getpetbyid" data-provider="PetID" finished-at="2024-07-04T16:40:42 NZST" duration-ms="1436" status="PASS">
+        <test-method signature="getpetbyid(java.lang.String)[pri:2, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:10 NZST" name="getpetbyid" data-provider="PetID" finished-at="2024-07-06T10:53:12 NZST" duration-ms="1437" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -452,7 +482,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getpetbyid -->
-        <test-method signature="getpetbyid(java.lang.String)[pri:2, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:42 NZST" name="getpetbyid" data-provider="PetID" finished-at="2024-07-04T16:40:44 NZST" duration-ms="1317" status="PASS">
+        <test-method signature="getpetbyid(java.lang.String)[pri:2, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:12 NZST" name="getpetbyid" data-provider="PetID" finished-at="2024-07-06T10:53:13 NZST" duration-ms="1346" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -463,7 +493,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getpetbyid -->
-        <test-method signature="deleteapet(java.lang.String)[pri:4, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:44 NZST" name="deleteapet" data-provider="PetID" finished-at="2024-07-04T16:40:45 NZST" duration-ms="1106" status="PASS">
+        <test-method signature="deleteapet(java.lang.String)[pri:4, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:13 NZST" name="deleteapet" data-provider="PetID" finished-at="2024-07-06T10:53:15 NZST" duration-ms="1348" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -474,7 +504,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteapet -->
-        <test-method signature="deleteapet(java.lang.String)[pri:4, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:45 NZST" name="deleteapet" data-provider="PetID" finished-at="2024-07-04T16:40:47 NZST" duration-ms="1814" status="PASS">
+        <test-method signature="deleteapet(java.lang.String)[pri:4, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:15 NZST" name="deleteapet" data-provider="PetID" finished-at="2024-07-06T10:53:16 NZST" duration-ms="1429" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -485,7 +515,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteapet -->
-        <test-method signature="deleteapet(java.lang.String)[pri:4, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:47 NZST" name="deleteapet" data-provider="PetID" finished-at="2024-07-04T16:40:48 NZST" duration-ms="1435" status="PASS">
+        <test-method signature="deleteapet(java.lang.String)[pri:4, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:16 NZST" name="deleteapet" data-provider="PetID" finished-at="2024-07-06T10:53:18 NZST" duration-ms="1532" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -496,7 +526,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteapet -->
-        <test-method signature="deleteapet(java.lang.String)[pri:4, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:48 NZST" name="deleteapet" data-provider="PetID" finished-at="2024-07-04T16:40:50 NZST" duration-ms="1630" status="PASS">
+        <test-method signature="deleteapet(java.lang.String)[pri:4, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:18 NZST" name="deleteapet" data-provider="PetID" finished-at="2024-07-06T10:53:19 NZST" duration-ms="1535" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -507,7 +537,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteapet -->
-        <test-method signature="deleteapet(java.lang.String)[pri:4, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:50 NZST" name="deleteapet" data-provider="PetID" finished-at="2024-07-04T16:40:51 NZST" duration-ms="1321" status="PASS">
+        <test-method signature="deleteapet(java.lang.String)[pri:4, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:19 NZST" name="deleteapet" data-provider="PetID" finished-at="2024-07-06T10:53:20 NZST" duration-ms="1326" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -518,7 +548,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteapet -->
-        <test-method signature="deleteapet(java.lang.String)[pri:4, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:51 NZST" name="deleteapet" data-provider="PetID" finished-at="2024-07-04T16:40:53 NZST" duration-ms="1641" status="PASS">
+        <test-method signature="deleteapet(java.lang.String)[pri:4, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:20 NZST" name="deleteapet" data-provider="PetID" finished-at="2024-07-06T10:53:22 NZST" duration-ms="1540" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -529,7 +559,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteapet -->
-        <test-method signature="deleteapet(java.lang.String)[pri:4, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:53 NZST" name="deleteapet" data-provider="PetID" finished-at="2024-07-04T16:40:54 NZST" duration-ms="1532" status="PASS">
+        <test-method signature="deleteapet(java.lang.String)[pri:4, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:22 NZST" name="deleteapet" data-provider="PetID" finished-at="2024-07-06T10:53:23 NZST" duration-ms="1451" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -540,7 +570,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteapet -->
-        <test-method signature="deleteapet(java.lang.String)[pri:4, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:54 NZST" name="deleteapet" data-provider="PetID" finished-at="2024-07-04T16:40:56 NZST" duration-ms="1477" status="PASS">
+        <test-method signature="deleteapet(java.lang.String)[pri:4, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:23 NZST" name="deleteapet" data-provider="PetID" finished-at="2024-07-06T10:53:25 NZST" duration-ms="1504" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -551,7 +581,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteapet -->
-        <test-method signature="updatepetwithformdata(java.lang.String)[pri:5, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:56 NZST" name="updatepetwithformdata" data-provider="PetID" finished-at="2024-07-04T16:40:57 NZST" duration-ms="1371" status="PASS">
+        <test-method signature="updatepetwithformdata(java.lang.String)[pri:5, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:25 NZST" name="updatepetwithformdata" data-provider="PetID" finished-at="2024-07-06T10:53:27 NZST" duration-ms="1529" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -562,7 +592,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepetwithformdata -->
-        <test-method signature="updatepetwithformdata(java.lang.String)[pri:5, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:57 NZST" name="updatepetwithformdata" data-provider="PetID" finished-at="2024-07-04T16:40:59 NZST" duration-ms="1376" status="PASS">
+        <test-method signature="updatepetwithformdata(java.lang.String)[pri:5, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:27 NZST" name="updatepetwithformdata" data-provider="PetID" finished-at="2024-07-06T10:53:28 NZST" duration-ms="1432" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -573,7 +603,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepetwithformdata -->
-        <test-method signature="updatepetwithformdata(java.lang.String)[pri:5, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:40:59 NZST" name="updatepetwithformdata" data-provider="PetID" finished-at="2024-07-04T16:41:00 NZST" duration-ms="1468" status="PASS">
+        <test-method signature="updatepetwithformdata(java.lang.String)[pri:5, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:28 NZST" name="updatepetwithformdata" data-provider="PetID" finished-at="2024-07-06T10:53:29 NZST" duration-ms="1430" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -584,7 +614,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepetwithformdata -->
-        <test-method signature="updatepetwithformdata(java.lang.String)[pri:5, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:41:00 NZST" name="updatepetwithformdata" data-provider="PetID" finished-at="2024-07-04T16:41:02 NZST" duration-ms="1430" status="PASS">
+        <test-method signature="updatepetwithformdata(java.lang.String)[pri:5, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:29 NZST" name="updatepetwithformdata" data-provider="PetID" finished-at="2024-07-06T10:53:31 NZST" duration-ms="1533" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -595,7 +625,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepetwithformdata -->
-        <test-method signature="updatepetwithformdata(java.lang.String)[pri:5, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:41:02 NZST" name="updatepetwithformdata" data-provider="PetID" finished-at="2024-07-04T16:41:03 NZST" duration-ms="1536" status="PASS">
+        <test-method signature="updatepetwithformdata(java.lang.String)[pri:5, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:31 NZST" name="updatepetwithformdata" data-provider="PetID" finished-at="2024-07-06T10:53:32 NZST" duration-ms="1329" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -606,7 +636,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepetwithformdata -->
-        <test-method signature="updatepetwithformdata(java.lang.String)[pri:5, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:41:03 NZST" name="updatepetwithformdata" data-provider="PetID" finished-at="2024-07-04T16:41:05 NZST" duration-ms="1533" status="PASS">
+        <test-method signature="updatepetwithformdata(java.lang.String)[pri:5, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:32 NZST" name="updatepetwithformdata" data-provider="PetID" finished-at="2024-07-06T10:53:34 NZST" duration-ms="1342" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -617,7 +647,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepetwithformdata -->
-        <test-method signature="updatepetwithformdata(java.lang.String)[pri:5, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:41:05 NZST" name="updatepetwithformdata" data-provider="PetID" finished-at="2024-07-04T16:41:06 NZST" duration-ms="1504" status="PASS">
+        <test-method signature="updatepetwithformdata(java.lang.String)[pri:5, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:34 NZST" name="updatepetwithformdata" data-provider="PetID" finished-at="2024-07-06T10:53:35 NZST" duration-ms="1200" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -628,7 +658,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepetwithformdata -->
-        <test-method signature="updatepetwithformdata(java.lang.String)[pri:5, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:41:06 NZST" name="updatepetwithformdata" data-provider="PetID" finished-at="2024-07-04T16:41:08 NZST" duration-ms="1564" status="PASS">
+        <test-method signature="updatepetwithformdata(java.lang.String)[pri:5, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:35 NZST" name="updatepetwithformdata" data-provider="PetID" finished-at="2024-07-06T10:53:36 NZST" duration-ms="1338" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -639,7 +669,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepetwithformdata -->
-        <test-method signature="updatepetimage(java.lang.String)[pri:6, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:41:08 NZST" name="updatepetimage" data-provider="PetID" finished-at="2024-07-04T16:41:45 NZST" duration-ms="37122" status="PASS">
+        <test-method signature="updatepetimage(java.lang.String)[pri:6, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:36 NZST" name="updatepetimage" data-provider="PetID" finished-at="2024-07-06T10:53:59 NZST" duration-ms="23001" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -650,7 +680,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepetimage -->
-        <test-method signature="updatepetimage(java.lang.String)[pri:6, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:41:45 NZST" name="updatepetimage" data-provider="PetID" finished-at="2024-07-04T16:42:14 NZST" duration-ms="29311" status="PASS">
+        <test-method signature="updatepetimage(java.lang.String)[pri:6, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:53:59 NZST" name="updatepetimage" data-provider="PetID" finished-at="2024-07-06T10:54:13 NZST" duration-ms="13442" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -661,7 +691,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepetimage -->
-        <test-method signature="updatepetimage(java.lang.String)[pri:6, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:42:14 NZST" name="updatepetimage" data-provider="PetID" finished-at="2024-07-04T16:42:37 NZST" duration-ms="23189" status="PASS">
+        <test-method signature="updatepetimage(java.lang.String)[pri:6, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:54:13 NZST" name="updatepetimage" data-provider="PetID" finished-at="2024-07-06T10:54:36 NZST" duration-ms="23196" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -672,7 +702,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepetimage -->
-        <test-method signature="updatepetimage(java.lang.String)[pri:6, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:42:38 NZST" name="updatepetimage" data-provider="PetID" finished-at="2024-07-04T16:43:06 NZST" duration-ms="28810" status="PASS">
+        <test-method signature="updatepetimage(java.lang.String)[pri:6, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:54:36 NZST" name="updatepetimage" data-provider="PetID" finished-at="2024-07-06T10:54:54 NZST" duration-ms="17903" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -683,7 +713,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepetimage -->
-        <test-method signature="updatepetimage(java.lang.String)[pri:6, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:43:06 NZST" name="updatepetimage" data-provider="PetID" finished-at="2024-07-04T16:45:45 NZST" duration-ms="158201" status="PASS">
+        <test-method signature="updatepetimage(java.lang.String)[pri:6, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:54:54 NZST" name="updatepetimage" data-provider="PetID" finished-at="2024-07-06T10:55:19 NZST" duration-ms="24992" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -694,7 +724,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepetimage -->
-        <test-method signature="updatepetimage(java.lang.String)[pri:6, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:45:45 NZST" name="updatepetimage" data-provider="PetID" finished-at="2024-07-04T16:46:11 NZST" duration-ms="26864" status="PASS">
+        <test-method signature="updatepetimage(java.lang.String)[pri:6, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:55:19 NZST" name="updatepetimage" data-provider="PetID" finished-at="2024-07-06T10:55:56 NZST" duration-ms="36748" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -705,7 +735,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepetimage -->
-        <test-method signature="updatepetimage(java.lang.String)[pri:6, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:46:11 NZST" name="updatepetimage" data-provider="PetID" finished-at="2024-07-04T16:46:38 NZST" duration-ms="26477" status="PASS">
+        <test-method signature="updatepetimage(java.lang.String)[pri:6, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:55:56 NZST" name="updatepetimage" data-provider="PetID" finished-at="2024-07-06T10:56:35 NZST" duration-ms="39706" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -716,7 +746,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepetimage -->
-        <test-method signature="updatepetimage(java.lang.String)[pri:6, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:46:38 NZST" name="updatepetimage" data-provider="PetID" finished-at="2024-07-04T16:49:10 NZST" duration-ms="152591" status="PASS">
+        <test-method signature="updatepetimage(java.lang.String)[pri:6, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T10:56:35 NZST" name="updatepetimage" data-provider="PetID" finished-at="2024-07-06T11:01:47 NZST" duration-ms="311784" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -727,7 +757,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepetimage -->
-        <test-method signature="updatepet(java.lang.String)[pri:7, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:49:11 NZST" name="updatepet" data-provider="PetID" finished-at="2024-07-04T16:49:12 NZST" duration-ms="1652" status="PASS">
+        <test-method signature="updatepet(java.lang.String)[pri:7, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T11:01:47 NZST" name="updatepet" data-provider="PetID" finished-at="2024-07-06T11:01:49 NZST" duration-ms="1395" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -738,7 +768,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepet -->
-        <test-method signature="updatepet(java.lang.String)[pri:7, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:49:12 NZST" name="updatepet" data-provider="PetID" finished-at="2024-07-04T16:49:14 NZST" duration-ms="1448" status="PASS">
+        <test-method signature="updatepet(java.lang.String)[pri:7, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T11:01:49 NZST" name="updatepet" data-provider="PetID" finished-at="2024-07-06T11:01:50 NZST" duration-ms="1525" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -749,7 +779,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepet -->
-        <test-method signature="updatepet(java.lang.String)[pri:7, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:49:14 NZST" name="updatepet" data-provider="PetID" finished-at="2024-07-04T16:49:15 NZST" duration-ms="1418" status="PASS">
+        <test-method signature="updatepet(java.lang.String)[pri:7, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T11:01:50 NZST" name="updatepet" data-provider="PetID" finished-at="2024-07-06T11:01:52 NZST" duration-ms="1458" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -760,7 +790,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepet -->
-        <test-method signature="updatepet(java.lang.String)[pri:7, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:49:15 NZST" name="updatepet" data-provider="PetID" finished-at="2024-07-04T16:49:17 NZST" duration-ms="1433" status="PASS">
+        <test-method signature="updatepet(java.lang.String)[pri:7, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T11:01:52 NZST" name="updatepet" data-provider="PetID" finished-at="2024-07-06T11:01:53 NZST" duration-ms="1427" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -771,7 +801,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepet -->
-        <test-method signature="updatepet(java.lang.String)[pri:7, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:49:17 NZST" name="updatepet" data-provider="PetID" finished-at="2024-07-04T16:49:18 NZST" duration-ms="1431" status="PASS">
+        <test-method signature="updatepet(java.lang.String)[pri:7, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T11:01:53 NZST" name="updatepet" data-provider="PetID" finished-at="2024-07-06T11:01:54 NZST" duration-ms="1343" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -782,7 +812,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepet -->
-        <test-method signature="updatepet(java.lang.String)[pri:7, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:49:18 NZST" name="updatepet" data-provider="PetID" finished-at="2024-07-04T16:49:19 NZST" duration-ms="1432" status="PASS">
+        <test-method signature="updatepet(java.lang.String)[pri:7, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T11:01:54 NZST" name="updatepet" data-provider="PetID" finished-at="2024-07-06T11:01:56 NZST" duration-ms="1349" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -793,7 +823,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepet -->
-        <test-method signature="updatepet(java.lang.String)[pri:7, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:49:19 NZST" name="updatepet" data-provider="PetID" finished-at="2024-07-04T16:49:21 NZST" duration-ms="1436" status="PASS">
+        <test-method signature="updatepet(java.lang.String)[pri:7, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T11:01:56 NZST" name="updatepet" data-provider="PetID" finished-at="2024-07-06T11:01:58 NZST" duration-ms="1798" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -804,7 +834,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatepet -->
-        <test-method signature="updatepet(java.lang.String)[pri:7, instance:api.pettests.PetTestData@2e3967ea]" started-at="2024-07-04T16:49:21 NZST" name="updatepet" data-provider="PetID" finished-at="2024-07-04T16:49:22 NZST" duration-ms="1174" status="PASS">
+        <test-method signature="updatepet(java.lang.String)[pri:7, instance:api.pettests.PetTestData@17f62e33]" started-at="2024-07-06T11:01:58 NZST" name="updatepet" data-provider="PetID" finished-at="2024-07-06T11:01:59 NZST" duration-ms="1323" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -816,6 +846,36 @@
           </reporter-output>
         </test-method> <!-- updatepet -->
       </class> <!-- api.pettests.PetTestData -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="api.pettests.PetTest2">
+        <test-method is-config="true" signature="beforetests()[pri:0, instance:api.pettests.PetTest2@470734c3]" started-at="2024-07-06T10:51:27 NZST" name="beforetests" finished-at="2024-07-06T10:51:28 NZST" duration-ms="1074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetests -->
+        <test-method signature="addNewPet()[pri:1, instance:api.pettests.PetTest2@470734c3]" started-at="2024-07-06T10:51:28 NZST" name="addNewPet" finished-at="2024-07-06T10:51:32 NZST" duration-ms="3852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPet -->
+        <test-method signature="getpetbyid()[pri:2, instance:api.pettests.PetTest2@470734c3]" started-at="2024-07-06T10:51:32 NZST" name="getpetbyid" finished-at="2024-07-06T10:51:33 NZST" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getpetbyid -->
+        <test-method signature="deleteapet()[pri:4, instance:api.pettests.PetTest2@470734c3]" started-at="2024-07-06T10:51:33 NZST" name="deleteapet" finished-at="2024-07-06T10:51:34 NZST" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteapet -->
+        <test-method signature="updatepetwithformdata()[pri:5, instance:api.pettests.PetTest2@470734c3]" started-at="2024-07-06T10:51:34 NZST" name="updatepetwithformdata" finished-at="2024-07-06T10:51:36 NZST" duration-ms="1275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatepetwithformdata -->
+        <test-method signature="updatepetimage()[pri:6, instance:api.pettests.PetTest2@470734c3]" started-at="2024-07-06T10:51:36 NZST" name="updatepetimage" finished-at="2024-07-06T10:52:11 NZST" duration-ms="35651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatepetimage -->
+        <test-method signature="updatepet()[pri:7, instance:api.pettests.PetTest2@470734c3]" started-at="2024-07-06T10:52:11 NZST" name="updatepet" finished-at="2024-07-06T10:52:12 NZST" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatepet -->
+      </class> <!-- api.pettests.PetTest2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
